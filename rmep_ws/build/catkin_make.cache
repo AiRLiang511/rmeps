@@ -1,0 +1,2 @@
+key_control:lakibeam1:ldlidar_stl_ros:rmep_base:rmep_map:rmep_msgs:rmep_nav
+-DCATKIN_DEVEL_PREFIX=/home/rmep/rmep_ws/devel -DCMAKE_INSTALL_PREFIX=/home/rmep/rmep_ws/install -G Unix Makefiles

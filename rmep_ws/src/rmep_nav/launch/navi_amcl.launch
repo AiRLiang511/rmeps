@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find rmep_map)/map/map3308.yaml" output="screen">
+   <param name="frame_id" value="map" />
+  </node> 
+
+  <!-- <include file="$(find ldlidar)/launch/ld19.launch" > </include>  -->
+  <include file="$(find ldlidar_stl_ros)/launch/ld06.launch" > </include>
+  <!--Launch the move base with time elastic band-->
+
+  <include file="$(find rmep_nav)/launch/config/amcl/amcl.launch" > </include> 
+
+ <!-- <node pkg="tf" type="static_transform_publisher" name="map_odom_br" args="0 0 0 0 0 0 /map /odom 100"/>-->
+
+
+ <node pkg="rviz" type="rviz" name="rviz" args="-d $(find rmep_nav)/launch/config/navi_demo.rviz"/>
+
+</launch>

@@ -1,0 +1,2 @@
+set(rmep_msgs_MESSAGE_FILES "/home/rmep/rmep_ws/src/rmep_msgs/msg/GimbalFdb.msg;/home/rmep/rmep_ws/src/rmep_msgs/msg/GimbalCmd.msg;/home/rmep/rmep_ws/src/rmep_msgs/msg/GimbalCmd_ab.msg")
+set(rmep_msgs_SERVICE_FILES "/home/rmep/rmep_ws/src/rmep_msgs/srv/RobotArm.srv;/home/rmep/rmep_ws/src/rmep_msgs/srv/RobotGrip.srv;/home/rmep/rmep_ws/src/rmep_msgs/srv/RobotPwm.srv;/home/rmep/rmep_ws/src/rmep_msgs/srv/RobotBlaster.srv")

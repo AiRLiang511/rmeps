@@ -1,0 +1,8 @@
+prefix=/home/rmep/rmep_ws/devel
+
+Name: key_control
+Description: Description of key_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

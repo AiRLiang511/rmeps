@@ -1,0 +1,7 @@
+<launch>
+
+ <node name="rmep_nav_mult" pkg="rmep_nav" type="rmep_nav_mult.py"  output="screen"/>
+
+
+</launch>
+
